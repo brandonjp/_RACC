@@ -5,5 +5,7 @@ jQuery.when(
   var jqXHR = d1[2]; /* arguments are [ "success", statusText, jqXHR ] */
   if ( /Whip It/.test(jqXHR.responseText) ) {
     alert("First page has 'Whip It' somewhere.");
-  } else { alert("Whip It not involved."); }
+  } else { 
+    alert("Whip It not involved."); 
+  }
 });
