@@ -16,3 +16,6 @@ section#mapArea {
   width: 600px;
 }
 
+ul#listFilter {
+  display: inline-block;
+}
