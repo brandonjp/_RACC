@@ -1,0 +1,422 @@
+[
+    {
+        "meta": {
+            "details": "open 24 hours<br>8am - 6pm; first 2 hrs. free,<br>$1 ea additional 30 minutes;<br>$9 maximum daily; <br>entering after 6 pm; $5 flat rate<br>total capacity 338 spaces<br> ", 
+            "name": "Structure 1"
+        }, 
+        "place": {
+            "address": "1234 4th St.", 
+            "lat": 34.018203, 
+            "lng": -118.497761
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "open 24 hours<br>8am - 6pm; first 2 hrs. free,<br>$1 ea additional 30 minutes;<br>$9 maximum daily; <br>entering after 6 pm; $5 flat rate<br>total capacity 647 spaces", 
+            "name": "Structure 2"
+        }, 
+        "place": {
+            "address": "1235 2nd St.", 
+            "lat": 34.016861, 
+            "lng": -118.498889
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "open 24 hours<br>8am - 6pm; first 2 hrs. free,<br>$1 ea additional 30 minutes;<br>$9 maximum daily; <br>entering after 6 pm; $5 flat rate<br>total capacity 339 spaces", 
+            "name": "Structure 3"
+        }, 
+        "place": {
+            "address": "1320 4th St.", 
+            "lat": 34.017061, 
+            "lng": -118.496456
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "open 24 hours<br>8am - 6pm; first 2 hrs. free,<br>$1 ea additional 30 minutes;<br>$9 maximum daily; <br>entering after 6 pm; $5 flat rate<br>total capacity 652 spaces", 
+            "name": "Structure 4"
+        }, 
+        "place": {
+            "address": "1321 2nd St.", 
+            "lat": 34.015967, 
+            "lng": -118.497917
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "open 24 hours<br>8am - 6pm; first 2 hrs. free,<br>$1 ea additional 30 minutes;<br>$9 maximum daily; <br>entering after 6 pm; $5 flat rate<br>total capacity 665 spaces", 
+            "name": "Structure 5"
+        }, 
+        "place": {
+            "address": "1440 4th St.", 
+            "lat": 34.015231, 
+            "lng": -118.494303
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "open 24 hours<br>8am - 6pm; first 2 hrs. free,<br>$1 ea additional 30 minutes;<br>$9 maximum daily; <br>entering after 6 pm; $5 flat rate<br>Corner of 4th &amp; Broadway", 
+            "name": "Structure 7"
+        }, 
+        "place": {
+            "address": "Santa Monica Place Mall", 
+            "lat": 34.01444, 
+            "lng": -118.49372
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "open 24 hours<br>8am - 6pm; first 2 hrs. free,<br>$1 ea additional 30 minutes;<br>$9 maximum daily; <br>entering after 6 pm; $5 flat rate<br>Corner of 2nd St. &amp; Colorado Ave.", 
+            "name": "Structure 8"
+        }, 
+        "place": {
+            "address": "Santa Monica Place Mall", 
+            "lat": 34.01289, 
+            "lng": -118.49372
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "open 24 hours<br>8am - 6pm; first 2 hrs. free,<br>$1 ea additional 30 minutes;<br>$9 maximum daily; <br>entering after 6 pm; $5 flat rate<br>total capacity 294 spaces", 
+            "name": "Structure 9"
+        }, 
+        "place": {
+            "address": "1136 4th St.", 
+            "lat": 34.019575, 
+            "lng": -118.499378
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "Operates 24 hrs. daily<br>Enter at Civic Center Drive &amp; 4th St.<br>$1.50/20 minutes; $9 maximum daily<br>Entering after 6 pm or weekends:  $3 flat rate<br>744 spaces total", 
+            "name": "Civic Center"
+        }, 
+        "place": {
+            "address": "333 Civic Center Dr.", 
+            "lat": 34.01158, 
+            "lng": -118.48997
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "Enter at 7th St., north of Santa Monica Blvd.<br>525 spaces total<br>8am - 11pm: First 15 minutes free;<br>$.50/30 minutes; $10 maximum daily<br>Entering after 6 pm or weekends: flat rate $3", 
+            "name": "Library"
+        }, 
+        "place": {
+            "address": "601 Santa Monica Blvd.", 
+            "lat": 34.019, 
+            "lng": -118.49361
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "82 metered spaces: 79 @ 3 hours<br>$.75 each hour; open 24 hours a day", 
+            "name": "Structure10"
+        }, 
+        "place": {
+            "address": "1125 3rd St.", 
+            "lat": 34.0193044597, 
+            "lng": -118.499836877
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "Operates 24 hrs. daily<br>$1.50/20 minutes; $9 maximum daily<br>Entering after 6 pm or weekends:  $3 flat rate<br>", 
+            "name": "Civic Lot"
+        }, 
+        "place": {
+            "address": "North of Pico Blvd. between Main St. &amp; 4th St., east side", 
+            "lat": 34.0097205389, 
+            "lng": -118.488141548
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "open 7:30am - 12am M-F;<br>7:30am - 1am Sat/Sun<br>$8 per entry<br>total capacity 1129 spaces", 
+            "name": "Lot 1 North"
+        }, 
+        "place": {
+            "address": "1550/1440 Pacific Coast Hwy.", 
+            "lat": 34.010806, 
+            "lng": -118.497361
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "open 7am - 4 pm<br>$8 per entry<br>87 spaces total", 
+            "name": "Lot 4 North"
+        }, 
+        "place": {
+            "address": "1060 Pacific Coast Hwy.", 
+            "lat": 34.0175748081, 
+            "lng": -118.503927407
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "open 7am - 4 pm<br>$8 per entry<br>57 spaces total", 
+            "name": "Lot 5 North"
+        }, 
+        "place": {
+            "address": "1030 Pacific Coast Hwy.", 
+            "lat": 34.0179351259, 
+            "lng": -118.50436858
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "7:30 - 12am M-F: $7<br>7:30 - 1am Sat/Sun: $8<br>total capacity 277 spaces", 
+            "name": "Pier Deck"
+        }, 
+        "place": {
+            "address": "West end of Colorado Ave. on the Pier ", 
+            "lat": 34.009333, 
+            "lng": -118.496389
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "open 7am - 4 pm<br>$8 per entry<br>75 spaces total", 
+            "name": "Lot 6 North"
+        }, 
+        "place": {
+            "address": "950 Pacific Coast Hwy.", 
+            "lat": 34.0188702322, 
+            "lng": -118.505541747
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "open 7am - 4 pm<br>$8 per entry<br>85 spaces total", 
+            "name": "Lot 7 North"
+        }, 
+        "place": {
+            "address": "930 Pacific Coast Hwy.", 
+            "lat": 34.0193707463, 
+            "lng": -118.506196
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "open 7am - 4 pm<br>$8 per entry<br>214 spaces total", 
+            "name": "Lot 8 North"
+        }, 
+        "place": {
+            "address": "810 Pacific Coast Hwy.", 
+            "lat": 34.021, 
+            "lng": -118.508333
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "open 7am - 4 pm<br>$8 per entry<br>79 spaces total", 
+            "name": "Lot 9 North"
+        }, 
+        "place": {
+            "address": "530 Pacific Coast Hwy.", 
+            "lat": 34.023312386, 
+            "lng": -118.511280472
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "open 7am - 5 pm $8 per entry<br>274 spaces total", 
+            "name": "Beach House Lot"
+        }, 
+        "place": {
+            "address": "445-415 Pacific Coast Hwy.", 
+            "lat": 34.023972, 
+            "lng": -118.512472
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "2 hour maximum parking<br>7 am - 4 pm<br>66 spaces total<br>", 
+            "name": "Lot 1 South"
+        }, 
+        "place": {
+            "address": "1640 (S-T) Appian Way", 
+            "lat": 34.0099541788, 
+            "lng": -118.495048016
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "7 am - 4 pm<br>$7 weekends &amp; holidays;<br>$5 weekdays<br>63 spaces total", 
+            "name": "Lot 2 South"
+        }, 
+        "place": {
+            "address": "1670 Appian Way", 
+            "lat": 34.0090571462, 
+            "lng": -118.494109447
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "7am - 4pm<br> $7 weekends  &amp; holidays;<br>$5 weekdays<br>total capacity 120 spaces", 
+            "name": "Lot 3 South"
+        }, 
+        "place": {
+            "address": "1750 Appian Way", 
+            "lat": 34.0075968885, 
+            "lng": -118.492572458
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "7 am - 5 pm<br> $8 weekends  &amp; holidays;<br>$7 weekdays<br>short-term parking - 177 spaces<br>$1 per hour, two hour maximum<br>total capacity 1319 spaces", 
+            "name": "Lot 4 South"
+        }, 
+        "place": {
+            "address": "2030 Ocean Ave.", 
+            "lat": 34.003028, 
+            "lng": -118.488639
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "7 am - 5 pm<br> $8 weekends  &amp; holidays;<br>$7 weekdays<br>784 spaces total<br>short-term parking - 87 spaces<br>$1 per hour, two hour maximum<br>", 
+            "name": "Lot 5 South"
+        }, 
+        "place": {
+            "address": "2600 Barnard Way", 
+            "lat": 33.998833, 
+            "lng": -118.484722
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "Enter from Kinney St., Hill St. or off of Main St. at Ashland Ave.<br>175 metered spaces: 165 @ 3 hours, 10 @ 10 hours<br>$1 per hour; open 24 hours<br>Change machine available at this location", 
+            "name": "Lot 9"
+        }, 
+        "place": {
+            "address": "110 Hill St.", 
+            "lat": 34.0012600183, 
+            "lng": -118.483533574
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "Enter from Hill St.<br>40 metered spaces: 37 @ 3 hours<br>$1 per hour; open 24 hours", 
+            "name": "Lot 10"
+        }, 
+        "place": {
+            "address": "111 Hill St.", 
+            "lat": 33.9990350353, 
+            "lng": -118.481299235
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "Enter from Hollister Ave. or through entrance at 2934 Main St.<br>110 metered spaces: 95 @ 3 hours, 12 @ 10 hours<br>$1 per hour; open 24 hours<br>Change machine available at this location", 
+            "name": "Lot 11"
+        }, 
+        "place": {
+            "address": "170 Hollister Ave.", 
+            "lat": 34.0035983845, 
+            "lng": -118.485858714
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "Enter from Strand St.<br>15 metered spaces: 8 @ 3 hours, 6 @ 10 hours<br>$1 per hour; open 24 hours", 
+            "name": "Lot 26"
+        }, 
+        "place": {
+            "address": "150 Strand St.", 
+            "lat": 34.004679, 
+            "lng": -118.487009
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "27 spaces; open 24 hours<br>$1 per 30 min., $9 maximum", 
+            "name": "Lot 28"
+        }, 
+        "place": {
+            "address": "1323 5th St.", 
+            "lat": 34.01810833, 
+            "lng": -118.4951389
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "91 spaces; open 24 hours<br>$1 per 30 min., $9 maximum", 
+            "name": "Lot 27"
+        }, 
+        "place": {
+            "address": "1320 5th St.", 
+            "lat": 34.01795556, 
+            "lng": -118.4953944
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "50 metered spaces total: <br>24 @ 3 hours, 24 @ 10 hours<br>$.75 each hour; open 24 hours", 
+            "name": "Lot 7"
+        }, 
+        "place": {
+            "address": "1217 Euclid St.", 
+            "lat": 34.0257371337, 
+            "lng": -118.488941816
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "22 metered spaces: 21 @ 3 hours<br>$.75 each hour; open 24 hours<br>", 
+            "name": "Lot 8"
+        }, 
+        "place": {
+            "address": "1146 16th St. just north of Wilshire Blvd.", 
+            "lat": 34.0284350224, 
+            "lng": -118.48762886
+        }, 
+        "type": "lot"
+    }, 
+    {
+        "meta": {
+            "details": "50 metered spaces: 11 @ 1 hour, 37 @ 3 hours<br>$.75 each hour; open 24 hours<br>", 
+            "name": "Lot 12"
+        }, 
+        "place": {
+            "address": "1211 14th St.", 
+            "lat": 34.0266032735, 
+            "lng": -118.488115012
+        }, 
+        "type": "lot"
+    }
+]
