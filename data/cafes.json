@@ -1,0 +1,494 @@
+[
+    {
+        "meta": {
+            "details": "Coffee: $4<br>Mocha: $7", 
+            "name": "Peet's Coffee & Tea"
+        }, 
+        "place": {
+            "address": "1401 Montana Avenue", 
+            "lat": 34.0326, 
+            "lng": -118.495125
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $3<br>Mocha: $7", 
+            "name": "Funnel Mill Rare"
+        }, 
+        "place": {
+            "address": "930 Broadway", 
+            "lat": 34.019199, 
+            "lng": -118.4884838
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $2<br>Mocha: $7", 
+            "name": "18th Street Coffee House"
+        }, 
+        "place": {
+            "address": "1725 Broadway", 
+            "lat": 34.0251998901, 
+            "lng": -118.481002808
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $1<br>Mocha: $4", 
+            "name": "Flying Saucers Caffeine and Art"
+        }, 
+        "place": {
+            "address": "306 Pico Blvd", 
+            "lat": 34.009168, 
+            "lng": -118.4877943
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $1<br>Mocha: $5", 
+            "name": "Groundwork Coffee Co."
+        }, 
+        "place": {
+            "address": "2908 Main St", 
+            "lat": 33.9992868, 
+            "lng": -118.4810609
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $1<br>Mocha: $7", 
+            "name": "Caffe Luxxe"
+        }, 
+        "place": {
+            "address": "925 Montana Ave", 
+            "lat": 34.0287017822, 
+            "lng": -118.5
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $2<br>Mocha: $2", 
+            "name": "Espresso Cielo"
+        }, 
+        "place": {
+            "address": "3101 Main St", 
+            "lat": 33.9980518, 
+            "lng": -118.4795932
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $3<br>Mocha: $2", 
+            "name": "Primo Passo Coffee"
+        }, 
+        "place": {
+            "address": "702 Montana Ave", 
+            "lat": 34.0268558, 
+            "lng": -118.5017326
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $3<br>Mocha: $7", 
+            "name": "The Coffee Bean & Tea Leaf"
+        }, 
+        "place": {
+            "address": "829 Wilshire Blvd", 
+            "lat": 34.0229988098, 
+            "lng": -118.494003296
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $4<br>Mocha: $2", 
+            "name": "Brew Coffee Bar"
+        }, 
+        "place": {
+            "address": "2425 Colorado Ave, Ste B118", 
+            "lat": 34.029331, 
+            "lng": -118.473237
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $3<br>Mocha: $3", 
+            "name": "The Refinery"
+        }, 
+        "place": {
+            "address": "413 Santa Monica Blvd", 
+            "lat": 34.0166865339, 
+            "lng": -118.495037556
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $1<br>Mocha: $7", 
+            "name": "Unurban"
+        }, 
+        "place": {
+            "address": "3301 Pico Blvd", 
+            "lat": 34.027043, 
+            "lng": -118.455616
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $1<br>Mocha: $2", 
+            "name": "Caffe Luxxe"
+        }, 
+        "place": {
+            "address": "225 26th St", 
+            "lat": 34.047415, 
+            "lng": -118.490682
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $4<br>Mocha: $3", 
+            "name": "MoGo Coffee"
+        }, 
+        "place": {
+            "address": "1434 4th St", 
+            "lat": 34.0156233, 
+            "lng": -118.4944065
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $2<br>Mocha: $3", 
+            "name": "212 Pier"
+        }, 
+        "place": {
+            "address": "212 Pier Ave", 
+            "lat": 33.99865, 
+            "lng": -118.479706
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $2<br>Mocha: $5", 
+            "name": "Urth Caffe"
+        }, 
+        "place": {
+            "address": "2327 Main St", 
+            "lat": 34.0043601344, 
+            "lng": -118.485810757
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $1<br>Mocha: $2", 
+            "name": "Caf\u221a\u00a9 Bolivar"
+        }, 
+        "place": {
+            "address": "1741 Ocean Park Blvd", 
+            "lat": 34.013063, 
+            "lng": -118.465697
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $2<br>Mocha: $5", 
+            "name": "The Coffee Bean & Tea Leaf"
+        }, 
+        "place": {
+            "address": "3150 Ocean Park Blvd", 
+            "lat": 34.020421, 
+            "lng": -118.452514
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $1<br>Mocha: $7", 
+            "name": "Peet's Coffee & Tea"
+        }, 
+        "place": {
+            "address": "1401 Montana Avenue", 
+            "lat": 34.0326, 
+            "lng": -118.495125
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $3<br>Mocha: $6", 
+            "name": "La Monarca Bakery"
+        }, 
+        "place": {
+            "address": "1300 Wilshire Blvd", 
+            "lat": 34.0260096, 
+            "lng": -118.4895425
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $1<br>Mocha: $4", 
+            "name": "Peet's Coffee & Tea"
+        }, 
+        "place": {
+            "address": "2439 Main Street", 
+            "lat": 34.0033827, 
+            "lng": -118.4849192
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $2<br>Mocha: $4", 
+            "name": "Infuzion Caf\u221a\u00a9"
+        }, 
+        "place": {
+            "address": "1149 3rd St", 
+            "lat": 34.0191001892, 
+            "lng": -118.5
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $2<br>Mocha: $7", 
+            "name": "The Coffee Bean"
+        }, 
+        "place": {
+            "address": "1804 Lincoln Blvd", 
+            "lat": 34.013739, 
+            "lng": -118.484652
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $4<br>Mocha: $7", 
+            "name": "Cutting Board"
+        }, 
+        "place": {
+            "address": "1260 15th St", 
+            "lat": 34.0266990662, 
+            "lng": -118.486999512
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $1<br>Mocha: $3", 
+            "name": "The Coffee Bean & Tea Leaf"
+        }, 
+        "place": {
+            "address": "200 Santa Monica Blvd", 
+            "lat": 34.0149002075, 
+            "lng": -118.497001648
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $2<br>Mocha: $6", 
+            "name": "Novel Cafe"
+        }, 
+        "place": {
+            "address": "2127 Lincoln Blvd", 
+            "lat": 34.01049, 
+            "lng": -118.480313
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $2<br>Mocha: $7", 
+            "name": "Conservatory For Coffee, Tea & Cocoa"
+        }, 
+        "place": {
+            "address": "10117 Washington Blvd, Culver City, CA", 
+            "lat": 34.0203018188, 
+            "lng": -118.400001526
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $4<br>Mocha: $7", 
+            "name": "Kafe K"
+        }, 
+        "place": {
+            "address": "2209 Main St", 
+            "lat": 34.005616, 
+            "lng": -118.486856
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $1<br>Mocha: $3", 
+            "name": "Cora's Coffee Shoppe"
+        }, 
+        "place": {
+            "address": "1802 Ocean Ave", 
+            "lat": 34.0082015991, 
+            "lng": -118.490997314
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $3<br>Mocha: $5", 
+            "name": "Starbucks"
+        }, 
+        "place": {
+            "address": "1356 3rd St Promenade", 
+            "lat": 34.0158393, 
+            "lng": -118.4964093
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $2<br>Mocha: $7", 
+            "name": "Starbucks"
+        }, 
+        "place": {
+            "address": "2461-A Santa Monica Blvd", 
+            "lat": 34.032365, 
+            "lng": -118.475469
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $2<br>Mocha: $6", 
+            "name": "Coffee Tomo"
+        }, 
+        "place": {
+            "address": "11309 Mississippi Ave, Los Angeles, CA", 
+            "lat": 34.0393574, 
+            "lng": -118.4428186
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $2<br>Mocha: $3", 
+            "name": "Balconi Coffee Company"
+        }, 
+        "place": {
+            "address": "11301 W Olympic Blvd, Los Angeles, CA", 
+            "lat": 34.0379019, 
+            "lng": -118.4414427
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $1<br>Mocha: $4", 
+            "name": "Intelligentsia Coffee & Tea"
+        }, 
+        "place": {
+            "address": "1331 Abbot Kinney Blvd, Venice, CA", 
+            "lat": 33.9910939, 
+            "lng": -118.466894
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $1<br>Mocha: $7", 
+            "name": "Tanner's Coffee Co"
+        }, 
+        "place": {
+            "address": "200 Culver Blvd, Playa Del Rey, CA", 
+            "lat": 33.9589004517, 
+            "lng": -118.447998047
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $2<br>Mocha: $5", 
+            "name": "Starbucks Coffee"
+        }, 
+        "place": {
+            "address": "1201 3rd St Promenade", 
+            "lat": 34.018279, 
+            "lng": -118.498708
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $4<br>Mocha: $5", 
+            "name": "Groundwork Coffee Company"
+        }, 
+        "place": {
+            "address": "395 Santa Monica Pl", 
+            "lat": 34.0137687, 
+            "lng": -118.4942118
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $3<br>Mocha: $3", 
+            "name": "The Coffee Bean & Tea Leaf"
+        }, 
+        "place": {
+            "address": "2901 Main St", 
+            "lat": 33.9995994568, 
+            "lng": -118.481002808
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $2<br>Mocha: $2", 
+            "name": "Starbucks"
+        }, 
+        "place": {
+            "address": "3105 Wilshire Blvd", 
+            "lat": 34.040373, 
+            "lng": -118.472759
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $3<br>Mocha: $6", 
+            "name": "Tully's Coffee"
+        }, 
+        "place": {
+            "address": "2425 Colorado Ave", 
+            "lat": 34.029398, 
+            "lng": -118.472746
+        }, 
+        "type": "cafe"
+    }, 
+    {
+        "meta": {
+            "details": "Coffee: $4<br>Mocha: $2", 
+            "name": "The Coffee Bean & Tea Leaf"
+        }, 
+        "place": {
+            "address": "1312 3rd Street Promenade", 
+            "lat": 34.016478, 
+            "lng": -118.497535
+        }, 
+        "type": "cafe"
+    }
+]
