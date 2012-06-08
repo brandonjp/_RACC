@@ -16,6 +16,7 @@ section#mapArea {
   width: 600px;
 }
 
-ul#listFilter {
+ul#listFilter li {
+  list-style: none;
   display: inline-block;
 }
