@@ -11,3 +11,10 @@ section {
   float: left;
 }
 
+section#mapArea {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  float: left;
+}
+
