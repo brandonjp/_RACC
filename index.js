@@ -1,15 +1,15 @@
 if (document.documentElement) document.documentElement.className = 'js';
 
 var RA = {
-  scriptDir: '/assets/scripts/',
-  imgDir:    '/assets/styles/images/'
+  scriptDir: 'assets/scripts/',
+  imgDir:    'assets/images/'
 };
 
-loadJS(scriptDir+"jquery-1.7.2.min.js", function() {
+loadJS(RA.scriptDir+"jquery-1.7.2.min.js", function() {
 
 });
 
-loadJS(scriptDir+"ember-latest.min.js", function() {
+loadJS(RA.scriptDir+"ember-latest.min.js", function() {
 
 });
 

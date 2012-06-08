@@ -1,29 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>title</title>
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-  <link rel="apple-touch-icon" href="/assets/images/icons/apple-touch-icon.png">
-  <link href="/assets/styles/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/assets/styles/print.css" media="print" rel="stylesheet" type="text/css">
-  <!--[if IE]>
-  <link rel="stylesheet" href="/assets/styles/ie.css" type="text/css" media="screen, projection">
-  <![endif]-->
-  <script>
-      if (document.documentElement) document.documentElement.className = 'js';
-      var FM = {
-        scriptDir: '/assets/scripts/',
-        imgDir:    '/assets/styles/images/',
-        pngSelector: ''
-      };
-    </script>
-    <script src="/assets/scripts/jquery-1.4.min.js"></script>
-    <!--[if lt IE 7]>
-    <script src="/assets/scripts/default-ie.js"></script>
-    <![endif]-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>_RACC</title>
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" href="/assets/images/icons/apple-touch-icon.png">
+	<link href="/assets/styles/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="/assets/styles/print.css" media="print" rel="stylesheet" type="text/css">
+	<!--[if IE]>
+		<link rel="stylesheet" href="/assets/styles/ie.css" type="text/css" media="screen, projection">
+	<![endif]-->
+	<script>if (document.documentElement) document.documentElement.className = 'js';</script>
+	<script src="index.js"></script>
+	<!--[if lt IE 7]>
+		<script src="/assets/scripts/default-ie.js"></script>
+	<![endif]-->
 </head>
+
 <body>
-  
+	<div class="outer wrap">
+		<div class="inner wrap">
+			<section id="mapArea">
+				<img src="http://placehold.it/600x400&text=MAP" alt="" />
+			</section><!-- /#mapArea -->
+			<section id="listArea">
+				<ul id="listFilter">
+						<li><button id="#all">All</button></li>
+						<li><button id="#all">Coffee</button></li>
+						<li><button id="#all">Parking</button></li>
+				</ul><!-- /#listFilter -->
+				<ul id="listItems">
+					<li class="listItem">
+						<div class="itemBlock">
+							<ul class="itemData">
+								<li class="icon"><img src="http://placehold.it/64&text=COFFEE" alt="Coffee Icon" /></li>
+								<li class="name">Coffee 4 U</li>
+								<li class="phone">020 7386 8249</li>
+								<li class="web">www.coffee4u.co.uk</li>
+								<li class="details"><pre>
+									Line of Business: Eating Establishments
+									Market Sector: Take Away Meal Outlets
+								</pre></li>
+								<li class="address"><pre>
+									92 North End Road
+									West Kensington
+									London 
+									W14 9EX
+								</pre></li>
+							</ul><!-- /.itemData -->
+						</div><!-- /.itemBlock -->
+					</li>
+				</ul><!-- /#listItems -->
+			</section><!-- /#listArea -->
+		</div><!-- /.inner.wrap -->
+	</div><!-- /.outer.wrap -->
 </body>
 </html>
