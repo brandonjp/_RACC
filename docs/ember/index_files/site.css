@@ -1,0 +1,680 @@
+/* line 17, ../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* line 20, ../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1; }
+
+/* line 22, ../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 24, ../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 26, ../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 28, ../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 101, ../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 30, ../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 114, ../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+@font-face {
+  font-family: 'MavenProBold';
+  src: url("/fonts/maven_pro_bold-webfont.eot");
+  src: url("/fonts/maven_pro_bold-webfont.eot?#iefix") format("eot"), url("/fonts/maven_pro_bold-webfont.woff") format("woff"), url("/fonts/maven_pro_bold-webfont.ttf") format("truetype"), url("/fonts/maven_pro_bold-webfont.svg#webfontNOU7iUTL") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'MavenProMedium';
+  src: url("/fonts/maven_pro_medium-webfont.eot");
+  src: url("/fonts/maven_pro_medium-webfont.eot?#iefix") format("eot"), url("/fonts/maven_pro_medium-webfont.woff") format("woff"), url("/fonts/maven_pro_medium-webfont.ttf") format("truetype"), url("/fonts/maven_pro_medium-webfont.svg#webfontNj5iy4Dl") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url("/fonts/Lato-Regular.woff") format("woff"); }
+
+/* Calculated page dimensions. */
+/* line 18, site.css.scss */
+body {
+  background: url(/images/background.png);
+  margin: 65px 0 0 0;
+  padding: 0;
+  font-family: Lato, Arial, sans-serif;
+  line-height: 23px;
+  font-size: 13px;
+  line-height: 20px;
+  min-width: 940px; }
+
+/* line 30, site.css.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 34, site.css.scss */
+a {
+  color: #e1563f;
+  text-decoration: none; }
+
+/* line 39, site.css.scss */
+p {
+  margin: 24px 0; }
+
+/* line 43, site.css.scss */
+em {
+  font-style: italic; }
+
+/* line 47, site.css.scss */
+code {
+  font-family: Menlo, Courier, monospace;
+  font-size: 90%;
+  color: #666;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 3px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px; }
+
+/* line 56, site.css.scss */
+.clearfix {
+  clear: both;
+  line-height: 0;
+  height: 0; }
+
+/**
+  Header
+**/
+/* line 65, site.css.scss */
+#header {
+  position: absolute;
+  width: 100%;
+  min-width: 940px;
+  top: 0;
+  height: 60px;
+  background: url(/images/navigation_background.png);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px; }
+  /* line 74, site.css.scss */
+  #header #wrapper {
+    width: 940px;
+    margin: 0 auto;
+    position: relative; }
+  /* line 80, site.css.scss */
+  #header #logo {
+    position: absolute;
+    left: 7px;
+    top: 6px;
+    width: 103px;
+    height: 40px;
+    background: url(/images/ember_logo.png); }
+  /* line 89, site.css.scss */
+  #header #nav {
+    width: 500px;
+    height: 65px;
+    margin: 0 auto;
+    text-align: center; }
+    /* line 96, site.css.scss */
+    #header #nav li {
+      line-height: 26px;
+      margin: 18px 0;
+      display: inline-block; }
+      /* line 100, site.css.scss */
+      #header #nav li a {
+        font-family: "MavenProBold";
+        font-size: 13px;
+        text-transform: uppercase;
+        color: #faf2ee;
+        text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 0px;
+        display: block;
+        padding: 0px 1em;
+        height: 26px;
+        line-height: 26px;
+        text-decoration: none;
+        border: 1px solid transparent; }
+    /* line 118, site.css.scss */
+    #header #nav li.active a {
+      color: #6f1b0b;
+      text-shadow: rgba(255, 255, 255, 0.16) 0 1px 0px;
+      background-color: #bf4737;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      -o-border-radius: 3px;
+      border-radius: 3px;
+      -webkit-box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0px, inset rgba(0, 0, 0, 0.17) 0 1px 1px;
+      -moz-box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0px, inset rgba(0, 0, 0, 0.17) 0 1px 1px;
+      box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0px, inset rgba(0, 0, 0, 0.17) 0 1px 1px; }
+    /* line 129, site.css.scss */
+    #header #nav li a:hover {
+      color: #fff; }
+  /* line 134, site.css.scss */
+  #header #github {
+    position: absolute;
+    right: 7px;
+    top: 21px; }
+    /* line 139, site.css.scss */
+    #header #github a {
+      font-family: "MavenProBold";
+      font-size: 13px;
+      text-transform: uppercase;
+      color: #faf2ee;
+      text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 0px; }
+      /* line 140, site.css.scss */
+      #header #github a img {
+        float: left;
+        margin-top: 5px;
+        margin-right: 7px;
+        display: block; }
+      /* line 153, site.css.scss */
+      #header #github a:hover {
+        color: #fff; }
+
+/* line 160, site.css.scss */
+#content-wrapper {
+  width: 940px;
+  margin: 0 auto 40px auto;
+  padding: 20px 0px;
+  position: relative; }
+  /* line 166, site.css.scss */
+  #content-wrapper.grid {
+    background-image: url(/images/grid.png); }
+
+/* line 174, site.css.scss */
+#content {
+  width: 940px; }
+  /* line 177, site.css.scss */
+  #content.has-sidebar {
+    margin-left: 240px;
+    width: 700px; }
+
+/* line 183, site.css.scss */
+#sidebar {
+  width: 220px;
+  margin-top: 43px;
+  position: absolute;
+  font-family: "MavenProMedium";
+  font-size: 14px; }
+  /* line 190, site.css.scss */
+  #sidebar #back-to-top {
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: opacity 0.05s linear;
+    -moz-transition: opacity 0.05s linear;
+    -ms-transition: opacity 0.05s linear;
+    -o-transition: opacity 0.05s linear;
+    transition: opacity 0.05s linear; }
+  /* line 196, site.css.scss */
+  #sidebar a {
+    text-decoration: none;
+    line-height: 21px;
+    border-bottom: none;
+    color: #e1563f; }
+    /* line 202, site.css.scss */
+    #sidebar a:hover {
+      color: black; }
+    /* line 206, site.css.scss */
+    #sidebar a.active {
+      color: black; }
+  /* line 211, site.css.scss */
+  #sidebar ol {
+    list-style-type: none;
+    border-left: 3px solid #e3dddb; }
+    /* line 215, site.css.scss */
+    #sidebar ol li {
+      margin: 14px 0;
+      padding-left: 8px;
+      text-transform: uppercase; }
+      /* line 220, site.css.scss */
+      #sidebar ol li:first-of-type {
+        margin-top: 0; }
+      /* line 224, site.css.scss */
+      #sidebar ol li.level-3, #sidebar ol li.level-4 {
+        text-transform: none;
+        padding-left: 20px;
+        margin: 3px 0; }
+      /* line 230, site.css.scss */
+      #sidebar ol li:hover {
+        border-left: 3px solid #491500;
+        margin-left: -3px; }
+        /* line 234, site.css.scss */
+        #sidebar ol li:hover a {
+          color: #491500; }
+      /* line 239, site.css.scss */
+      #sidebar ol li a {
+        display: block; }
+
+/**
+  About Page
+**/
+/* line 249, site.css.scss */
+.about-header-text {
+  display: block;
+  margin: 60px auto 0 auto; }
+
+/* line 254, site.css.scss */
+#download {
+  width: 465px;
+  height: 125px;
+  margin: 0 auto;
+  position: relative; }
+  /* line 260, site.css.scss */
+  #download #download-ember, #download #download-starter-kit {
+    position: absolute;
+    width: 220px;
+    top: 40px;
+    text-align: center; }
+  /* line 267, site.css.scss */
+  #download #download-ember {
+    left: 0; }
+  /* line 271, site.css.scss */
+  #download #download-starter-kit {
+    left: 240px; }
+  /* line 275, site.css.scss */
+  #download .info {
+    margin-top: 4px;
+    color: #888; }
+
+/* line 281, site.css.scss */
+.section {
+  margin: 60px 0;
+  overflow: hidden; }
+  /* line 285, site.css.scss */
+  .section h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "MavenProBold";
+    margin-bottom: 28px; }
+
+/* line 297, site.css.scss */
+.getting-started.section .highlight, .getting-started.section p {
+  float: left;
+  width: 440px; }
+  /* line 301, site.css.scss */
+  .getting-started.section .highlight.right, .getting-started.section p.right {
+    margin-left: 60px; }
+/* line 306, site.css.scss */
+.getting-started.section p {
+  text-align: center;
+  color: #222; }
+
+/* line 313, site.css.scss */
+.features.section .feature {
+  width: 220px;
+  float: left;
+  margin-left: 60px;
+  margin-right: 20px; }
+  /* line 319, site.css.scss */
+  .features.section .feature img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block; }
+  /* line 325, site.css.scss */
+  .features.section .feature p {
+    text-align: center; }
+
+/* line 332, site.css.scss */
+.users.section .user {
+  width: 220px;
+  float: left;
+  margin-left: 20px; }
+  /* line 336, site.css.scss */
+  .users.section .user:first-of-type {
+    margin-left: 0; }
+/* line 340, site.css.scss */
+.users.section p {
+  text-align: center; }
+/* line 344, site.css.scss */
+.users.section #listed {
+  float: left;
+  margin-left: 360px;
+  text-align: center; }
+
+/* line 352, site.css.scss */
+.gears.section .gear {
+  text-align: center;
+  height: 120px; }
+  /* line 356, site.css.scss */
+  .gears.section .gear .gearplus {
+    padding: 0px 30px 0px 30px;
+    display: inline;
+    line-height: 120px; }
+    /* line 360, site.css.scss */
+    .gears.section .gear .gearplus img {
+      vertical-align: top;
+      padding-top: 50px; }
+
+/* line 370, site.css.scss */
+.samples.section .sample {
+  float: left;
+  position: relative;
+  margin-left: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 2px 3px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 2px 3px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 3px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  width: 220px; }
+  /* line 380, site.css.scss */
+  .samples.section .sample:first-of-type {
+    margin-left: 0; }
+  /* line 384, site.css.scss */
+  .samples.section .sample .info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    -webkit-font-smoothing: antialiased;
+    -webkit-transition: opacity 0.1s linear;
+    -moz-transition: opacity 0.1s linear;
+    -ms-transition: opacity 0.1s linear;
+    -o-transition: opacity 0.1s linear;
+    transition: opacity 0.1s linear;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px; }
+    /* line 396, site.css.scss */
+    .samples.section .sample .info .name {
+      text-align: center;
+      color: white;
+      font-family: MavenProMedium;
+      font-size: 18px;
+      margin-top: 55px;
+      text-transform: uppercase; }
+    /* line 405, site.css.scss */
+    .samples.section .sample .info .actions {
+      text-align: center;
+      margin-top: 16px; }
+      /* line 409, site.css.scss */
+      .samples.section .sample .info .actions > div {
+        display: inline-block;
+        margin: 0 3px; }
+  /* line 416, site.css.scss */
+  .samples.section .sample img {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px; }
+  /* line 420, site.css.scss */
+  .samples.section .sample:hover .info {
+    opacity: 1; }
+
+/**
+  Documentation Page
+**/
+/* line 430, site.css.scss */
+.chapter {
+  margin: 43px 0 90px 0; }
+  /* line 436, site.css.scss */
+  .chapter h2 {
+    width: 100%;
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "MavenProBold"; }
+  /* line 444, site.css.scss */
+  .chapter h3 {
+    font-size: 16px;
+    margin: 30px 0;
+    text-transform: uppercase;
+    padding-left: 32px; }
+  /* line 451, site.css.scss */
+  .chapter h4 {
+    font-size: 16px;
+    padding-left: 56px;
+    margin: 24px 0;
+    line-height: 23px; }
+  /* line 458, site.css.scss */
+  .chapter p {
+    color: #222;
+    padding-left: 56px;
+    font-size: 15px;
+    line-height: 23px; }
+  /* line 465, site.css.scss */
+  .chapter .highlight {
+    margin-left: 56px; }
+  /* line 469, site.css.scss */
+  .chapter ul, .chapter ol {
+    margin-left: 56px;
+    list-style-type: disc;
+    margin-bottom: 28px; }
+    /* line 474, site.css.scss */
+    .chapter ul li, .chapter ol li {
+      font-size: 15px;
+      margin: 10px 0 10px 0; }
+      /* line 478, site.css.scss */
+      .chapter ul li p, .chapter ol li p {
+        padding-left: 7px; }
+
+/**
+  Guide Pages
+**/
+/* line 489, site.css.scss */
+.guide {
+  margin: 43px 0 90px 0; }
+  /* line 495, site.css.scss */
+  .guide figure {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc; }
+  /* line 502, site.css.scss */
+  .guide img {
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    max-width: 100%;
+    /*max-width: $content-width;*/ }
+  /* line 510, site.css.scss */
+  .guide table.figure {
+    float: left;
+    margin-bottom: 20px; }
+    /* line 514, site.css.scss */
+    .guide table.figure + table.figure {
+      margin-left: 20px; }
+    /* line 518, site.css.scss */
+    .guide table.figure + table.figure + * {
+      clear: left; }
+    /* line 522, site.css.scss */
+    .guide table.figure th, .guide table.figure td {
+      padding: 5px 10px; }
+    /* line 526, site.css.scss */
+    .guide table.figure thead th {
+      font-weight: bold;
+      border-bottom: 2px solid #e1563f; }
+    /* line 531, site.css.scss */
+    .guide table.figure tbody td {
+      border-bottom: 1px solid #efa497; }
+  /* line 536, site.css.scss */
+  .guide h1 {
+    font-size: 32px;
+    margin-bottom: 32px; }
+  /* line 541, site.css.scss */
+  .guide h2 {
+    margin: 50px 0 0 0;
+    width: 100%;
+    font-size: 24px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "MavenProBold"; }
+  /* line 550, site.css.scss */
+  .guide :not(h2) + h3 {
+    margin-top: 50px; }
+  /* line 554, site.css.scss */
+  .guide h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 30px 0;
+    text-transform: uppercase;
+    padding-left: 0; }
+  /* line 562, site.css.scss */
+  .guide h4 {
+    font-size: 16px;
+    padding-left: 0;
+    margin: 24px 0;
+    line-height: 23px; }
+  /* line 569, site.css.scss */
+  .guide p {
+    color: #222;
+    padding-left: 0;
+    font-size: 15px;
+    line-height: 23px; }
+  /* line 576, site.css.scss */
+  .guide .highlight {
+    margin-left: 0; }
+  /* line 580, site.css.scss */
+  .guide ul, .guide ol {
+    margin-left: 0;
+    list-style-type: disc;
+    margin-bottom: 28px; }
+    /* line 585, site.css.scss */
+    .guide ul li, .guide ol li {
+      font-size: 15px;
+      margin: 10px 0 10px 20px; }
+
+/**
+  Community Page
+**/
+/* line 597, site.css.scss */
+.community.section {
+  margin-left: 180px;
+  margin-right: 180px; }
+
+/* line 602, site.css.scss */
+#footer {
+  width: 940px;
+  height: 62px;
+  margin: 60px auto 60px auto;
+  background-image: url(/images/footer.png); }
+  /* line 608, site.css.scss */
+  #footer .info {
+    font-family: "MavenProBold";
+    text-align: center;
+    width: 184px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 10px; }
+    /* line 616, site.css.scss */
+    #footer .info .copyright {
+      margin-top: 4px;
+      margin-bottom: 4px; }
+    /* line 621, site.css.scss */
+    #footer .info a {
+      color: #e1563f;
+      text-decoration: none; }
+
+/* line 628, site.css.scss */
+.screenshot {
+  margin-left: -60px; }
+
+/**
+  Buttons
+*/
+/* line 636, site.css.scss */
+.button {
+  display: block;
+  width: 226px;
+  height: 46px;
+  font-family: "MavenProBold";
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 47px;
+  font-size: 14px;
+  color: #f6ece8;
+  text-shadow: rgba(0, 0, 0, 0.3) 0 1px 0; }
+  /* line 648, site.css.scss */
+  .button.orange {
+    background-image: url(/images/orange_buttons.png); }
+    /* line 651, site.css.scss */
+    .button.orange:hover {
+      background-position: 0 -46px; }
+    /* line 655, site.css.scss */
+    .button.orange:active {
+      background-position: 0 -92px;
+      text-shadow: rgba(0, 0, 0, 0.3) 0 -1px 0; }
+  /* line 661, site.css.scss */
+  .button.black {
+    background-image: url(/images/black_buttons.png); }
+    /* line 664, site.css.scss */
+    .button.black:hover {
+      background-position: 0 -46px; }
+    /* line 668, site.css.scss */
+    .button.black:active {
+      background-position: 0 -92px;
+      text-shadow: rgba(0, 0, 0, 0.3) 0 -1px 0; }
+  /* line 674, site.css.scss */
+  .button:hover {
+    background-position: 0 -46px; }
+
+/* line 682, site.css.scss */
+.small-button {
+  width: 74px;
+  height: 22px;
+  font-family: "MavenProMedium";
+  color: #fff;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-shadow: rgba(0, 0, 0, 0.3) 0 1px 0; }
+  /* line 692, site.css.scss */
+  .small-button.orange {
+    background-image: url(/images/small-orange-button.png); }
+  /* line 696, site.css.scss */
+  .small-button.black {
+    background-image: url(/images/small-black-button.png); }
