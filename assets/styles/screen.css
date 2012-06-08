@@ -11,5 +11,7 @@ section {
 }
 
 section#mapArea {
+  height: 400px;
+  width: 600px;
 }
 
