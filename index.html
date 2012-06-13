@@ -2,59 +2,59 @@
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>_RACC</title>
-	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-	<link rel="apple-touch-icon" href="assets/images/icons/apple-touch-icon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+	<title>RACC</title>
 	<link href="assets/styles/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-	<!--[if IE]>
-		<link rel="stylesheet" href="/assets/styles/ie.css" type="text/css" media="screen, projection">
-	<![endif]-->
-	<!--[if lt IE 7]>
-		<script src="/assets/scripts/default-ie.js"></script>
-	<![endif]-->
+	<link href="http://serverapi.arcgisonline.com/jsapi/arcgis/2.3/js/dojo/dijit/themes/claro/claro.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body>
+	
 	<div class="outer wrap">
 		<div class="inner wrap">
+			
 			<section id="mapArea">
-				<img src="http://placehold.it/600x400&text=MAP" alt="" />
+				<div id="mapHere"></div>
+				<div id="dataHere"></div>
 			</section><!-- /#mapArea -->
+			
 			<section id="listArea">
-				<ul id="listFilter">
-						<li><button id="#all">All</button></li>
-						<li><button id="#all">Coffee</button></li>
-						<li><button id="#all">Parking</button></li>
-				</ul><!-- /#listFilter -->
-				<ul id="listItems">
-					<li class="listItem">
-						<div class="itemBlock">
+				
+				<div class="controls">
+					<ul id="listFilter">
+							<li><button id="all">All</button></li>
+							<li><button id="cafes">Cafes</button></li>
+							<li><button id="lots">Parking Lots</button></li>
+					</ul><!-- /#listFilter -->
+				</div><!-- /.controls -->
+				
+				<div class="content">
+					<ul id="listItems">
+					<script type="text/x-handlebars">
+					{{#each App.locations}}
+					<li class="listItem {{unbound type}}">
+						<div class="itemBlock" onClick="zoomCenterAndShowInfoWindowFor({{unbound place.lat}},{{unbound place.lng}},'{{unbound meta.name}}')">
 							<ul class="itemData">
-								<li class="icon"><img src="http://placehold.it/64&text=COFFEE" alt="Coffee Icon" /></li>
-								<li class="name">Coffee 4 U</li>
-								<li class="phone">020 7386 8249</li>
-								<li class="web">www.coffee4u.co.uk</li>
-								<li class="details"><pre>
-									Line of Business: Eating Establishments
-									Market Sector: Take Away Meal Outlets
-								</pre></li>
-								<li class="address"><pre>
-									92 North End Road
-									West Kensington
-									London 
-									W14 9EX
-								</pre></li>
+								<li class="name">{{meta.name}}</li>
+								<li class="details">{{meta.details}}</li>
+								<li class="address">{{place.address}}</li>
 							</ul><!-- /.itemData -->
 						</div><!-- /.itemBlock -->
-					</li>
-				</ul><!-- /#listItems -->
+					</li><!-- /.listItem -->
+					{{/each}}
+					</script>
+					</ul><!-- /#listItems -->
+				</div><!-- /.content -->
+
 			</section><!-- /#listArea -->
 		</div><!-- /.inner.wrap -->
-	</div><!-- /.outer.wrap -->
+	</div><!-- /.outer.wrap -->	
 	
 	<!-- Scripts -->
-	<script src="assets/scripts/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="assets/scripts/app.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://serverapi.arcgisonline.com/jsapi/arcgis/?v=2.8compact"></script>
+	<script src="assets/scripts/jquery-1.7.2.min.js"></script>
+	<script src="assets/scripts/ember-0.9.8.1.min.js"></script>
+	<script src="assets/scripts/app.js"></script>
 	<!-- /Scripts -->
 	
 </body>

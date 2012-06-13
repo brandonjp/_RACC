@@ -1,22 +1,97 @@
-div.wrap {
+/* @override http://brandonjp.local/~brandonjp/RACC/assets/styles/screen.css */
+
+html, body {
+  color: #333;
   margin: 0;
   padding: 0;
-  display: inline-block;
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica, Arial, "sans-serif";
+  font-size: 12px;
+}
+
+div, section, ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
 section {
-  margin: 0;
-  padding: 0;
-  float: left;
-  max-width: 40%;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid;
 }
 
-section#mapArea {
-  height: 400px;
-  width: 600px;
+#mapArea {
+	height: 400px;
+	width: 600px;
+	overflow: hidden;
 }
 
-ul#listFilter li {
-  list-style: none;
-  display: inline-block;
+#listArea {
+	height: 400px;
+	width: 240px;
+	overflow: hidden;
 }
+
+div.controls {
+	text-align: center;
+}
+
+#listFilter,
+#listFilter li {
+	list-style: none;
+	display: inline-block;
+}
+
+#listItems {
+	height: 400px;
+	width: 240px;
+	display: block;
+	overflow-y: scroll;
+}
+
+#listItems .listItem {
+	background: #333;
+	color: #fff;
+	display: block;
+	padding: 6px;
+	margin-bottom: 3px;
+}
+
+div.itemBlock {
+	display: inline-block;
+}
+
+ul.itemData {
+	padding-left: 39px;
+	background-repeat: no-repeat;
+}
+
+.cafe ul.itemData {
+	background: url("http://www.dummyimage.com/32/5286e9/ffffff.gif&text=+C+") 0 0 no-repeat;
+}
+
+.lot ul.itemData {
+	background: url("http://www.dummyimage.com/32/b92b2b/ffffff.gif&text=+P+") 0 0 no-repeat;
+}
+
+div.itemBlock .name {
+	display: inline-block;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+div.itemBlock .details {
+	
+}
+
+
+
+
+
+
+
+
